@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Music Passion</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-music"></i>
+                    <span>Music Passion</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>Share your music stories and connect with fellow music lovers</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Let's Talk Music</h2>
+                    <p>I'm always excited to connect with fellow music enthusiasts. Whether you want to share your favorite artists, discuss musical discoveries, or just talk about how music has impacted your life, I'd love to hear from you.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>hello@musicpassion.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Music City, Soundsville</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Response Time</h3>
+                                <p>Usually within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h3>Follow My Musical Journey</h3>
+                        <div class="social-icons">
+                            <a href="#" title="Spotify Playlists"><i class="fab fa-spotify"></i></a>
+                            <a href="#" title="YouTube Channel"><i class="fab fa-youtube"></i></a>
+                            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" title="Music Blog"><i class="fas fa-blog"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h2>Share Your Music Story</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="age">Your Age</label>
+                            <input type="number" id="age" class="form-control" min="10" max="100">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Favorite Music Genre</label>
+                            <div class="radio-group">
+                                <div class="radio-option">
+                                    <input type="radio" id="rock" name="genre" value="rock">
+                                    <label for="rock">Rock</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="jazz" name="genre" value="jazz">
+                                    <label for="jazz">Jazz</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="electronic" name="genre" value="electronic">
+                                    <label for="electronic">Electronic</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="classical" name="genre" value="classical">
+                                    <label for="classical">Classical</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Music Preferences</label>
+                            <div class="checkbox-group">
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="lyrics" name="preferences" value="lyrics">
+                                    <label for="lyrics">Meaningful Lyrics</label>
+                                </div>
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="melody" name="preferences" value="melody">
+                                    <label for="melody">Catchy Melodies</label>
+                                </div>
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="rhythm" name="preferences" value="rhythm">
+                                    <label for="rhythm">Complex Rhythms</label>
+                                </div>
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="instrumentation" name="preferences" value="instrumentation">
+                                    <label for="instrumentation">Rich Instrumentation</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="satisfaction">Music Satisfaction Level</label>
+                            <div class="range-container">
+                                <input type="range" id="satisfaction" name="satisfaction" min="1" max="10" value="8" class="form-control">
+                                <span class="range-value" id="satisfaction-value">8</span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Music Story *</label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Tell us about your music journey, favorite artists, or how music has impacted your life..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-submit">Share Your Passion</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What inspired your passion for music?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>My passion for music began in childhood, influenced by family members who were musicians. Over time, I discovered how music could express emotions that words couldn't capture, and that realization sparked a lifelong journey of musical exploration.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do you discover new music?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I use a combination of streaming service recommendations, music blogs, friend suggestions, and exploring related artists. I also make a point to attend live shows and festivals where I can experience new sounds firsthand.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I suggest music for you to listen to?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! I'm always open to music recommendations. Please use the contact form to share your suggestions, and I'll do my best to listen and respond with my thoughts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-music"></i> Music Passion
+                    </div>
+                    <p>A tribute to the universal language that connects us all - music.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Spotify"><i class="fab fa-spotify"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Music Passion. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Update range value display
+        const satisfactionSlider = document.getElementById('satisfaction');
+        const satisfactionValue = document.getElementById('satisfaction-value');
+        
+        if (satisfactionSlider && satisfactionValue) {
+            satisfactionSlider.addEventListener('input', function() {
+                satisfactionValue.textContent = this.value;
+            });
+        }
+        
+        // FAQ toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Toggle active class on FAQ item
+                    this.parentElement.classList.toggle('active');
+                    
+                    // Toggle icon
+                    if (this.parentElement.classList.contains('active')) {
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    } else {
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
