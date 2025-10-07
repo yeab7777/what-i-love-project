@@ -3,237 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Gallery - Music Passion</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/gallery.css">
+    <title>Gallery | Hodophile</title>
+    <link rel="stylesheet" href="gallery2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header with Navigation -->
     <header>
         <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <i class="fas fa-music"></i>
-                    <span>Music Passion</span>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="gallery.html" class="active">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-mountain"></i>
+                    Hodophile
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <!-- Page Title -->
-    <section class="page-title">
+    <section class="gallery-hero">
         <div class="container">
-            <h1>Music Gallery</h1>
-            <p>A visual journey through musical moments and inspiration</p>
+            <div class="hero-content">
+                <h1>Natural Tourist Places</h1>
+                <p>Discover the breathtaking beauty of Ethiopia through the collection of natural wonders.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section class="gallery-section">
+    <section class="section gallery-section">
         <div class="container">
-            <div class="gallery-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="live">Live Music</button>
-                <button class="filter-btn" data-filter="instruments">Instruments</button>
-                <button class="filter-btn" data-filter="studio">Studio</button>
-            </div>
-            
             <div class="gallery-grid">
-                <div class="gallery-item" data-category="live">
-                    <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Live Concert">
-                    <div class="gallery-overlay">
-                        <div class="gallery-text">
-                            <h3>Live Concert</h3>
-                            <p>The energy of a live performance is unmatched</p>
-                        </div>
-                        <i class="fas fa-expand"></i>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="image/sof omar.jpg" alt="Sof Omar Cave">
+                    </div>
+                    <div class="gallery-content">
+                        <h3>Sof Omar Cave</h3>
+                        <p>The fantastic limestone caves of Sof Omar make a day's outing from Dinano, Robe or Goba. The road leaves Robe town, crossing the farming areas to the east, before descending into the lowlands.</p>
                     </div>
                 </div>
-                
-                <div class="gallery-item" data-category="studio">
-                    <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Recording Studio">
-                    <div class="gallery-overlay">
-                        <div class="gallery-text">
-                            <h3>Recording Studio</h3>
-                            <p>Where musical ideas come to life</p>
-                        </div>
-                        <i class="fas fa-expand"></i>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="image/danakile.jpg" alt="Danakil Depression">
+                    </div>
+                    <div class="gallery-content">
+                        <h3>Danakil Depression</h3>
+                        <p>Danakil Depression is one of the remotest spot in the world and the lowest part in unique land formation of the world Great Rift Valley system, still this part of the earth unstable and pulling each other to the opposite side.</p>
                     </div>
                 </div>
-                
-                <div class="gallery-item" data-category="instruments">
-                    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Music Instruments">
-                    <div class="gallery-overlay">
-                        <div class="gallery-text">
-                            <h3>Music Instruments</h3>
-                            <p>Tools of expression and creativity</p>
-                        </div>
-                        <i class="fas fa-expand"></i>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="image/semen mou.jpg" alt="Mountain Range">
+                    </div>
+                    <div class="gallery-content">
+                        <h3>Simien Mountains</h3>
+                        <p>The Simien Mountains are one of Ethiopia's most popular destinations. With its diverse flora and fauna, immense views and extraordinary geography, it's an exceptional place that can be enjoyed by hardy trekkers and casual day visitors alike.</p>
                     </div>
                 </div>
-                
-                <div class="gallery-item" data-category="live">
-                    <img src="https://images.unsplash.com/photo-1571974599782-87624638275f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2032&q=80" alt="DJ Performance">
-                    <div class="gallery-overlay">
-                        <div class="gallery-text">
-                            <h3>DJ Performance</h3>
-                            <p>Mixing tracks and creating new experiences</p>
-                        </div>
-                        <i class="fas fa-expand"></i>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="image/bale maountains.jpg" alt="Bale Mountains">
                     </div>
-                </div>
-                
-                <div class="gallery-item" data-category="instruments">
-                    <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Headphones">
-                    <div class="gallery-overlay">
-                        <div class="gallery-text">
-                            <h3>Listening Experience</h3>
-                            <p>Personal journey through sound</p>
-                        </div>
-                        <i class="fas fa-expand"></i>
-                    </div>
-                </div>
-                
-                <div class="gallery-item" data-category="studio">
-                    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Vinyl Records">
-                    <div class="gallery-overlay">
-                        <div class="gallery-text">
-                            <h3>Vinyl Collection</h3>
-                            <p>The warmth of analog sound</p>
-                        </div>
-                        <i class="fas fa-expand"></i>
+                    <div class="gallery-content">
+                        <h3>Bale Mountains</h3>
+                        <p>The Bale Mountains are a mountain range in the Oromia Region of southeast Ethiopia. They include Tullu Dimtu, the second-highest mountain in Ethiopia, and Mount Batu.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Music Table Section -->
-    <section class="table-section">
+    <section class="section hiking-section">
         <div class="container">
-            <h2 class="section-title">My Music Listening Schedule</h2>
-            <table class="music-table">
-                <thead>
-                    <tr>
-                        <th>Day</th>
-                        <th>Morning</th>
-                        <th>Afternoon</th>
-                        <th>Evening</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Monday</td>
-                        <td>Classical</td>
-                        <td>Jazz</td>
-                        <td>Ambient</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday</td>
-                        <td>Acoustic</td>
-                        <td>Rock</td>
-                        <td>Electronic</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday</td>
-                        <td>Folk</td>
-                        <td>Blues</td>
-                        <td>Chillout</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday</td>
-                        <td>World Music</td>
-                        <td>Alternative</td>
-                        <td>Downtempo</td>
-                    </tr>
-                    <tr>
-                        <td>Friday</td>
-                        <td>Pop</td>
-                        <td>Funk</td>
-                        <td>House</td>
-                    </tr>
-                    <tr>
-                        <td>Weekend</td>
-                        <td colspan="3">Free exploration of new releases and personal favorites</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="section-title">
+                <h2>Hiking Places</h2>
+                <p>Explore our top recommended hiking destinations for adventure seekers</p>
+            </div>
+            <div class="hiking-grid">
+                <div class="hiking-card">
+                    <div class="hiking-image">
+                        <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Mountain Trail">
+                    </div>
+                    <div class="hiking-content">
+                        <h3>Simien Trek</h3>
+                        <p>Duration: 5 days</p>
+                        <p>Difficulty: Moderate</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="hiking-card">
+                    <div class="hiking-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Bale Mountains Hike">
+                    </div>
+                    <div class="hiking-content">
+                        <h3>Bale Mountains</h3>
+                        <p>Duration: 4 days</p>
+                        <p>Difficulty: Challenging</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="hiking-card">
+                    <div class="hiking-image">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Volcano Hike">
+                    </div>
+                    <div class="hiking-content">
+                        <h3>Erta Ale Trek</h3>
+                        <p>Duration: 3 days</p>
+                        <p>Difficulty: Difficult</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-about">
-                    <div class="footer-logo">
-                        <i class="fas fa-music"></i> Music Passion
+                <div class="footer-section">
+                    <h3>Hodophile</h3>
+                    <p>Travel & Tour</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
-                    <p>A tribute to the universal language that connects us all - music.</p>
                 </div>
-                
-                <div class="footer-links">
+                <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-social">
-                    <h4>Connect</h4>
-                    <div class="social-icons">
-                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" title="Spotify"><i class="fab fa-spotify"></i></a>
-                    </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Travel Street, Adventure City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@hodophile.com</p>
                 </div>
             </div>
-            
-            <div class="copyright">
-                <p>&copy; 2023 Music Passion. All rights reserved.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Hodophile. All rights reserved.</p>
             </div>
         </div>
     </footer>
-
-    <script>
-        // Gallery filtering functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const filterBtns = document.querySelectorAll('.filter-btn');
-            const galleryItems = document.querySelectorAll('.gallery-item');
-            
-            filterBtns.forEach(btn => {
-                btn.addEventListener('click', function() {
-                    // Remove active class from all buttons
-                    filterBtns.forEach(b => b.classList.remove('active'));
-                    // Add active class to clicked button
-                    this.classList.add('active');
-                    
-                    const filter = this.getAttribute('data-filter');
-                    
-                    galleryItems.forEach(item => {
-                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
-                            item.style.display = 'block';
-                        } else {
-                            item.style.display = 'none';
-                        }
-                    });
-                });
-            });
-        });
-    </script>
 </body>
 </html>
