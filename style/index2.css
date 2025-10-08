@@ -7,7 +7,7 @@
 
 /* Set entire website background to an image */
 body {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
     background-image: url(../image/lalibela.jpg);

@@ -111,7 +111,7 @@ header {
 
 .contact-info > p {
     margin-bottom: 2rem;
-    color: #666;
+    color: white;
 }
 
 .info-item {
@@ -144,7 +144,7 @@ header {
 
 /* Social links in contact info */
 .social-links h3 {
-    color: #2c5530;
+    color:white;
     margin-bottom: 1rem;
 }
 
